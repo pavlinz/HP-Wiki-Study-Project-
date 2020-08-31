@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Harry Potter Wiki</string>
+    <string name="heroes">Герои</string>
+    <string name="creatures">Существа</string>
+    <string name="organizations">Организации</string>
+    <string name="events">События</string>
+</resources>
