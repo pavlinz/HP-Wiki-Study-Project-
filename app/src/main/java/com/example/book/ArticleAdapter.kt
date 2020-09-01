@@ -46,4 +46,10 @@ class ArticleAdapter(listArray : ArrayList<ListItem>, context : Context) :
         holder.bind(listItem, contextR)
     }
 
+    fun updateAdapter(listArray: List<ListItem>) {
+        listArrayR.clear()
+        listArrayR.addAll(listArray)
+        notifyDataSetChanged()
+    }
+
 }

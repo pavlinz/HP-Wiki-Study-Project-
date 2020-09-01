@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="HeroNamesArray">
+        <item>Гарри Поттер</item>
+        <item>Рон Уизли</item>
+        <item>Гермиона Грейнджер</item>
+    </string-array>
+
+    <string-array name="HeroDescriptions">
+        <item>Гарри Джеймс Поттер — главный герой Поттерианы, одноклассник и лучший
+              друг Рона Уизли и Гермионы Грейнджер, член Золотого Трио.</item>
+        <item>Рональд Уизли — один из главных персонажей Поттерианы, друг и одноклассник
+              Гарри Поттера и Гермионы Грейнджер, член Золотого Трио.</item>
+        <item>Гермиона Джин Грейнджер — одна из главных героинь Поттерианы, подруга и одноклассница
+              Гарри Поттера и Рона Уизли, член Золотого Трио. Единственная дочь мистера Грейнджера
+              и его жены</item>
+    </string-array>
+
+    <array name="HeroImg">
+        <item>@drawable/harrypotter</item>
+        <item>@drawable/ronald</item>
+        <item>@drawable/germiona</item>
+    </array>
+</resources>

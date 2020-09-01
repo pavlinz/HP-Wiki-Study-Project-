@@ -4,18 +4,26 @@
     tools:showIn="navigation_view">
 
     <group android:checkableBehavior="single">
-        <item android:title="@string/heroes"
-              android:id="@+id/heroesItem"
-              android:icon="@drawable/ic_action_heroes"/>
-        <item android:title="@string/creatures"
+        <item
+            android:id="@+id/heroesItem"
+            android:icon="@drawable/ic_action_heroes"
+            android:onClick="onNavigationItemSelected"
+            android:title="@string/heroes" />
+        <item
             android:id="@+id/creaturesItem"
-            android:icon="@drawable/ic_action_creature"/>
-        <item android:title="@string/organizations"
+            android:icon="@drawable/ic_action_creature"
+            android:onClick="onNavigationItemSelected"
+            android:title="@string/creatures" />
+        <item
             android:id="@+id/organizationsItem"
-            android:icon="@drawable/ic_action_organizations"/>
-        <item android:title="@string/events"
+            android:icon="@drawable/ic_action_organizations"
+            android:onClick="onNavigationItemSelected"
+            android:title="@string/organizations" />
+        <item
             android:id="@+id/eventsItem"
-            android:icon="@drawable/ic_action_events"/>
+            android:icon="@drawable/ic_action_events"
+            android:onClick="onNavigationItemSelected"
+            android:title="@string/events" />
     </group>
 
 </menu>
