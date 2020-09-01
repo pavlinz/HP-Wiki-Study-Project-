@@ -7,6 +7,11 @@
     android:fitsSystemWindows="true"
     android:layout_height="match_parent">
 
+    <include layout="@layout/main_content"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        />
+
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/navMenu"
         android:layout_width="match_parent"
